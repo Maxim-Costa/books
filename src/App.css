@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+@media only screen and (max-width: 720px) {
+  .ThClient {
+    display: block;
+  }
+}
+
+
+.ThClient {
+  display: inline-block;
+  padding: 10px;
+}
+
+.Pclient {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textarea {
+    min-height: 30px;
+    min-width: 255px;
+    max-height: 500px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    outline: none;
+}
+
+.HistoireDiv {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    position: relative;
+    text-align: justify;
+}
+
+.h1Title {
+  margin-top: 5%;
+}
+
+@font-face {
+  font-family: OpenDis;
+  src: url(components\police\OpenDyslexic-Regular.otf);
+}
+
+
+.pHistoire {
+  font-size: 16px;
+  font-family: OpenDis;
+}
+
+.test {
+  display: inline-block;
+}
+
+.import {
+  border-bottom: 0px !important;
+}
+
+.sec {
+  overflow: initial !important;
+  white-space: initial !important;
+  font-weight: bold !important;
+  padding-bottom: inherit;
+  font-size: 14px;
+  line-height: 16px;
+  height: 16px;
+  margin: 4px 0px 0px;
+  color: rgba(0, 0, 0, 0.54);
+  text-overflow: ellipsis;
+}
+
+.twix {
+  display: inherit;
+  font-weight: 400;
+  color: #b2b2cb;
+}
+.IconAppBar {
+  left: 40%;
+  position: relative;
+}
+@media only screen and (min-width: 720px) {
+.hidden {
+  padding-left: 250px;
+  transition: padding-left 0.5s;
+}
+}
+@media only screen and (min-width: 720px) {
+.shown {
+  transition: padding-left 0.5s;
+}
+}
+.AppBarHistoire {
+  text-align: left;
+  padding-left: 5%;
+  margin-top: 10px !important;
+}
+.circular {
+  top: 50%;
+  position: absolute;
+  left: 50%;
+}
+.required {
+  color: red;
+}
