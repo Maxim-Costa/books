@@ -1,0 +1,25 @@
+.twix {
+    display: inherit;
+    font-weight: 400;
+    color: #b2b2cb;
+}
+.red3 {
+    display: inherit;
+    font-weight: 400;
+    color: red;
+}
+.required {
+    color: red;
+}
+.test {
+    display: inline-block;
+}
+.textarea {
+    min-height: 30px;
+    min-width: 255px;
+    max-height: 500px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    outline: none;
+}

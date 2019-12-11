@@ -1,0 +1,49 @@
+@media only screen and (min-width: 720px) {
+    .hidden {
+        padding-left: 250px;
+        transition: padding-left 0.5s;
+    }
+}
+@media only screen and (min-width: 720px) {
+    .shown {
+        transition: padding-left 0.5s;
+    }
+}
+.IconAppBar {
+    left: 40%;
+    position: relative;
+}
+.AppBarHistoire {
+    text-align: left;
+    padding-left: 5%;
+    margin-top: 10px !important;
+}
+.AppBar1 {
+    top: 0%;
+    position: fixed !important;
+}
+.mainDiv {
+    padding-top: 65px;
+}
+.tagss {
+    overflow: initial !important;
+    /*display: inline-block !important;*/
+}
+.tagsss {
+    overflow: initial !important;
+    white-space: normal !important;
+    padding: inherit;
+    /*margin: -15px 0px 0px !important;*/
+}
+.thTags {
+    display: contents !important;
+}
+.MuiChip-root.MuiChip-colorPrimary {
+    border-style: solid;
+}
+.MuiChip-root.MuiChip-sizeSmall {
+    height: 30px;
+}
+.test32 {
+    height: 100% !important;
+}

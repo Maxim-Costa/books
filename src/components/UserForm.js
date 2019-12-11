@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import FormUserDetails from './FormUserDetails';
-import FormPersonalDetails from './FormPersonalDetails';
+import FormUserDetails from './NewStorie/FormUserDetails';
+import FormPersonalDetails from './NewStorie/FormPersonalDetails';
 import Confirm from './Confirm';
-import Success from './Success';
+import Main from './Main';
+
 export class UserForm extends Component {
     
     state = {
@@ -66,11 +67,15 @@ export class UserForm extends Component {
         this.setState({categorie: toto})
     }
 
+    handleChangeDate = date => {
+        this.setState({date: date})
+    }
+
+
     render() {
         const { step } = this.state;
         const { description, title, categorie, date, histoire, auteur } = this.state;
         const values = { description, title, categorie, date, histoire, auteur }
-        
         switch(step) {
             case 1:
                 return (
@@ -90,6 +95,7 @@ export class UserForm extends Component {
                         setHStep={this.setHStep}
                         handleChange={this.handleChange}
                         values={values}
+                        handleChangeDate={this.handleChangeDate}
                     />
                 );
             case 3:
@@ -102,18 +108,18 @@ export class UserForm extends Component {
                     );
             case 4:
                 return (
-                        <Success 
-                            setStep={this.setStep}
-                        />
-                )
+                    <Main
+                        setStep={this.setStep}
+                    />
+                );
             default:
                 return (
-                    <Success 
+                    <Main 
                             setStep={this.setStep}
                     />
-                )
-        }
-    }
-}
+                );
+        };
+    };
+};
 
-export default UserForm
+export default UserForm;

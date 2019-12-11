@@ -28,38 +28,11 @@
 }
 
 
-.ThClient {
-  display: inline-block;
-  padding: 10px;
-}
 
-.Pclient {
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.textarea {
-    min-height: 30px;
-    min-width: 255px;
-    max-height: 500px;
-    border-right: none;
-    border-left: none;
-    border-top: none;
-    outline: none;
-}
 
-.HistoireDiv {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    display: table;
-    position: relative;
-    text-align: justify;
-}
 
-.h1Title {
-  margin-top: 5%;
-}
+
 
 @font-face {
   font-family: OpenDis;
@@ -67,62 +40,12 @@
 }
 
 
-.pHistoire {
-  font-size: 16px;
-  font-family: OpenDis;
-}
-
-.test {
-  display: inline-block;
-}
 
 .import {
   border-bottom: 0px !important;
 }
 
-.sec {
-  overflow: initial !important;
-  white-space: initial !important;
-  font-weight: bold !important;
-  padding-bottom: inherit;
-  font-size: 14px;
-  line-height: 16px;
-  height: 16px;
-  margin: 4px 0px 0px;
-  color: rgba(0, 0, 0, 0.54);
-  text-overflow: ellipsis;
-}
 
-.twix {
-  display: inherit;
-  font-weight: 400;
-  color: #b2b2cb;
-}
-.IconAppBar {
-  left: 40%;
-  position: relative;
-}
-@media only screen and (min-width: 720px) {
-.hidden {
-  padding-left: 250px;
-  transition: padding-left 0.5s;
-}
-}
-@media only screen and (min-width: 720px) {
-.shown {
-  transition: padding-left 0.5s;
-}
-}
-.AppBarHistoire {
-  text-align: left;
-  padding-left: 5%;
-  margin-top: 10px !important;
-}
-.circular {
-  top: 50%;
-  position: absolute;
-  left: 50%;
-}
-.required {
-  color: red;
-}
+
+
+

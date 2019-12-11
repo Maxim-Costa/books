@@ -1,0 +1,46 @@
+.Pclient {
+    margin-left: auto;
+    margin-right: auto;
+}
+.ThClient {
+    display: inline-block;
+    padding: 10px;/*
+    border-color: black;
+    border-style: groove;
+    border-radius: 15%;
+    background-color: aliceblue;
+    border-width: thin;*/
+}   
+.circular {
+    top: 50%;
+    position: absolute;
+    left: 50%;
+}
+/*                    */
+.h1Title {
+    margin-top: 5%;
+}
+.HistoireDiv {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    position: relative;
+    text-align: justify;
+}
+.pHistoire {
+    font-size: 16px;
+    font-family: OpenDis;
+}
+.sec {
+    overflow: initial !important;
+    white-space: initial !important;
+    font-weight: bold !important;
+    padding-bottom: inherit;
+    font-size: 14px;
+    line-height: 16px;
+    height: 16px;
+    margin: 4px 0px 0px;
+    color: rgba(0, 0, 0, 0.54);
+    text-overflow: ellipsis;
+}
