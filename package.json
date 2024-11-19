@@ -9,7 +9,7 @@
     "@material-ui/lab": "^4.0.0-alpha.34",
     "date-fns": "^2.8.1",
     "draft-js": "^0.11.3",
-    "firebase": "^7.5.0",
+    "firebase": "^10.9.0",
     "history": "^4.10.1",
     "material-ui": "^0.20.2",
     "react": "^16.12.0",
